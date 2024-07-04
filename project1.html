@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <title>
+            Name List
+        </title>
+        <style>
+            @media (min-width:375px ) and (max-width:2000px){
+            body{
+                margin:0px;
+                background-color:lightblue;
+            }
+            #reg{
+                text-align: center;
+                font-size:40px;
+                background-color:blue;
+                color: aliceblue;
+            }
+            input,select{
+                margin-top:6px;
+                float:right; 
+                margin-right:400px;
+                /* padding:0px 0px 0px 300px; */
+            }
+            #list{
+                margin-top:30px;
+            }
+            #list1{
+                margin-left:400px;
+                font-size:25px;
+            }
+            #rightside{
+                text-align: justify;
+                margin-top:10px;
+            }
+            #but{
+                text-align: center;
+            }
+            button{
+                color: black;
+                background-color: aquamarine;
+                margin:20px;
+            }
+            button:hover{
+                background-color: gold;
+                color: black;
+            }
+            select{
+                width:170px;
+            }
+            
+            /* #rightside1{
+                font-size:25px;
+                text-align: center;
+                padding:0px 20px 10px 30px;
+            }
+             */
+        }
+        </style>
+    </body>
+    <div id="reg">
+        <a>Student Registration</a>
+    </div>
+    <div id="list">
+        <form>
+            <div id="rigthside">
+            <label id="list1">Student Rollno</label>
+            <input placeholder="Register Number"><br>
+            <br>
+            </div>
+            <div id="rightside">
+            <label id="list1">Student Name</label>
+            <input placeholder="Full Name"><br>
+            <br>
+            </div>
+            <div id="rightside">
+            <label id="list1">Student 10th mark</label>
+            <input placeholder="Mark out of 500"><br>
+            <br>
+            </div>
+            <div id="rightside">
+            <label id="list1">Student 12th mark</label>
+            <input placeholder="Mark out of 600"><br>
+            <br>
+            </div>
+            <div id="rightside">
+            <label id="list1">Degree Percentage</label>
+            <input placeholder=" Mark Percentage"><br>
+            <br>
+            </div>
+            <div id="list1">
+                <form action="">
+            <label  name="rightside">Department</label>
+            <select>
+                <option>select</option>
+                <option value="">CSE</option>
+                <option value="">IT</option>
+                <option value="">ECE</option>
+                <option value="">AIML</option>
+                <option value="">BIO</option>
+            </select>
+            </form>
+            <br>
+            </div>
+        </form>
+        <div id="but">
+        <button>Submit</button>
+        <button>Cancel</button>
+        </div>
+    </div>
+</html>
